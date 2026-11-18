@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-bright": "#fff9eb", "on-secondary": "#ffffff", "on-primary": "#ffffff", "inverse-surface": "#333027", "error": "#ba1a1a", "inverse-on-surface": "#f6f0e2", "error-container": "#ffdad6", "tertiary": "#15372a", "on-background": "#1d1c13", "secondary-fixed": "#ffdbce", "primary": "#073827", "on-tertiary-fixed": "#002116", "on-tertiary": "#ffffff", "surface-container-high": "#eee8da", "on-secondary-container": "#76300f", "tertiary-fixed-dim": "#aacfbc", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "secondary-fixed-dim": "#ffb599", "surface": "#fff9eb", "on-secondary-fixed": "#370e00", "tertiary-container": "#2c4e40", "on-error-container": "#93000a", "primary-fixed-dim": "#a2d1b9", "on-primary-fixed-variant": "#234f3d", "on-surface-variant": "#414944", "secondary-container": "#fe9971", "primary-fixed": "#bdedd5", "on-surface": "#1d1c13", "on-primary-fixed": "#002115", "surface-dim": "#dfdacc", "surface-tint": "#3b6754", "surface-container-low": "#f9f3e5", "secondary": "#964826", "background": "#fff9eb", "surface-variant": "#e8e2d4", "on-primary-container": "#91c0a9", "tertiary-fixed": "#c5ebd8", "surface-container": "#f3eddf", "inverse-primary": "#a2d1b9", "primary-container": "#234f3d", "on-secondary-fixed-variant": "#783111", "on-tertiary-container": "#9abeac", "outline": "#717974", "surface-container-highest": "#e8e2d4", "on-tertiary-fixed-variant": "#2c4d3f", "outline-variant": "#c0c8c2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "space-2xl": "3rem", "margin-desktop": "5rem", "gutter-desktop": "1.5rem", "space-md": "1rem", "space-sm": "0.75rem", "space-2xs": "0.25rem", "space-3xl": "4rem", "margin-tablet": "2rem", "space-xl": "2rem" }, "fontFamily": { "label-lg": ["Inter"], "label-md": ["Inter"], "display-lg": ["Playfair Display"], "title-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Playfair Display"], "body-sm": ["Inter"], "title-lg": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Playfair Display"], "body-md": ["Inter"], "display-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "title-lg": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["26px", { "lineHeight": "34px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "display-lg-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(22,56,43,0.06)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><img alt="Make the circular emblem logo significantly bigger, zoomed in so it fills the frame with minimal outer padding. Retain the exact same design, iconography, and typography: the intricate Indian banyan tree blended with rising sun rays and digital node branches, the curved text 'GRAMUDYAM' at the bottom, rendered in deep forest green (#234F3D) and warm terracotta (#C96F4A) on an organic cream background. Sharp, clean vector aesthetic with high contrast and presence." class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VgFD6jAkUH9r55bh8lHRxjZNwKJMH88gaSe30oiSteMr0BlL_irz-Xsjx8qVOepHye3MEAItXsNDexiSMAVVC9TpAopEByLLcxBRl1MUGwQQGzq5pDC1ewZvmltM1GmwvjnNjaig2kw9QETnw0e2XwCxUk-_QxJpPAzGc-RUtRFn_9YL0X7uHplU-Ow_y7395bqn0dDBdSFSxWn7aYdxkaLrdxHzmklB_AF9jhu9OBBaV9euBAY4r7wFg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">GRAMUDYAM</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest leading-none mt-1">Maharashtra Rural Network</span></div></a><nav class="hidden lg:flex items-center gap-space-lg ml-space-md" data-active-classes="text-primary font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="marketplace" href="#">Marketplace</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="how-it-works" href="#">How It Works</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-2xs bg-surface-container-high px-space-xs py-1 rounded-full"><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full bg-primary text-on-primary" type="button">EN</button><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full text-on-surface-variant hover:text-on-surface" type="button">मराठी</button><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full text-on-surface-variant hover:text-on-surface" type="button">हिंदी</button></div><div class="flex items-center gap-space-sm"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary px-space-sm py-space-xs transition-colors" data-path="login" href="#">Login</a><a class="hidden md:inline-flex items-center justify-center font-label-lg text-label-lg bg-secondary text-on-secondary hover:bg-secondary-fixed-variant px-space-md py-space-xs rounded-lg shadow-sm transition-colors" data-path="register" href="#">Become an Entrepreneur</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Top Hero Banner with Editorial Scrim -->
+<section class="relative w-full overflow-hidden bg-surface-container-high">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-space-xl pb-space-3xl lg:pt-space-2xl lg:pb-space-3xl">
+<!-- Provenance Overline & National Seal Badge -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">assured_workload</span>
+          State Mission Initiative
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">spa</span>
+          UMED • MSRLM Aligned
+        </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden sm:inline">
+          Official Provenance • ISO-27001 Craft Verifier
+        </span>
+</div>
+<!-- Main Asymmetric Grid: Title + Documentary Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl lg:gap-space-2xl items-center">
+<!-- Text Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<h1 class="font-display-lg text-display-lg text-primary leading-tight">
+            Technology with a Human Touch
+            <span class="block font-headline-md text-headline-md text-secondary mt-1 font-normal italic">
+              मानवी स्पर्श लाभलेले तंत्रज्ञान
+            </span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Bridging the gap between 45,000+ rural artisans in Maharashtra and conscientious buyers across the globe through AI voice cataloging, direct UPI payouts, and cryptographic provenance.
+          </p>
+<!-- Interactive Action Chips & Language Accessibility -->
+<div class="pt-space-sm flex flex-wrap items-center gap-space-sm">
+<a class="inline-flex items-center gap-space-xs bg-primary text-on-primary font-label-lg text-label-lg px-space-lg py-space-sm rounded-lg shadow-md hover:bg-tertiary transition-colors" href="#pillars">
+<span>Explore The Model</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container text-primary font-label-lg text-label-lg px-space-lg py-space-sm rounded-lg hover:bg-surface-variant transition-colors" href="#impact">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+<span>Cluster Audit Data</span>
+</a>
+<div class="flex items-center gap-2 pl-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">record_voice_over</span>
+<span>Available in मराठी, गोंडी, वऱ्हाडी &amp; हिंदी</span>
+</div>
+</div>
+</div>
+<!-- Featured Media Showcase Tile -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-lowest shadow-xl">
+<img alt="Rural woman artisan in green sari detailing Warli motifs on handcrafted terracotta pots with an AI cataloging tablet in her village workshop" class="w-full h-80 lg:h-[420px] object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W3irMp16c_3Dx_am4bt96005gfAWNq6dosCzFwMfgbGpA4qH4iV7dtyisUj68QP-YZAhLgs2XrtwvkOIdXD0X2bAMDKfjMeEaCukFQsulH5PBLDQeDtb8htrqwT1wfdYH940-UiU_CCRY3AUnCRwiK3Rylm10W_JGWbUJMgyMMGZYJHvExB6nSbKzdgSz7ihVlFhNZx811L5dVzYJFMWwYkvWI_LVcYGgkH-SAgKsLM1hvyCnlg904mXL5"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex flex-col justify-end p-space-md text-on-primary">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs bg-primary/60 backdrop-blur-md px-2.5 py-1 rounded-full text-on-primary">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">pin_drop</span>
+<span class="font-label-sm text-label-sm">Jawhar, Palghar District</span>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-secondary text-on-secondary">Live SHG Node</span>
+</div>
+<p class="font-body-sm text-body-sm mt-2 text-surface-bright/90 line-clamp-2">
+                “Before GRAMUDYAM, our Warli vessels were sold to middlemen for ₹120. Yesterday, an art collector in Pune paid ₹980 straight to my bank via Voice UPI.”
+              </p>
+<span class="font-label-sm text-label-sm text-secondary-fixed mt-1 font-semibold">— Sunita Bai Bhoir, Ekatmata Mahila Bachat Gat</span>
+</div>
+</div>
+<!-- Micro Floating Counter Card -->
+<div class="absolute -bottom-5 -left-4 sm:-left-6 bg-surface-container-lowest p-space-md rounded-xl shadow-lg flex items-center gap-space-sm hidden sm:flex">
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Direct Remittance</span>
+<span class="font-headline-sm text-headline-sm text-primary leading-none">₹4.80 Cr</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero intermediary deduction</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Problem Statement Section: Middlemen vs Sovereignty -->
+<section class="w-full bg-surface py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col max-w-2xl mb-space-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Structural Bottlenecks</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">The Triple Crisis in Rural Craftsmanship</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Rural Maharashtra harbors exceptional generational knowledge, yet institutional voids have systematically separated master crafters from the true market value of their labor.
+        </p>
+</div>
+<!-- Bento Grid: 3 Stark Problems -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Card 1: Middlemen Extraction -->
+<div class="bg-surface-container p-space-xl rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-error-container text-on-error-container flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">money_off</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Extraction Rate: Up to 70%</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">The Middlemen Bottleneck</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              Traders purchase Paithani sarees, brass idols, and handloom fabrics on unwritten credit, pocketing major margins while village women receive deferred, sub-subsistence day rates.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/60 p-space-sm rounded-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-error text-[20px]">trending_down</span>
+<span class="font-body-sm text-body-sm text-on-surface">Artisan keeps only ₹30 of every ₹100 consumer spends.</span>
+</div>
+</div>
+<!-- Card 2: Digital Barrier -->
+<div class="bg-surface-container p-space-xl rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">phonelink_erase</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Literacy &amp; UI Divide</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Complex E-Commerce UI</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              Mainstream commercial platforms demand English taxonomy, complex SKU cataloging, GST filings, and strict return policies that alienate rural producers using vernacular basic smartphones.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/60 p-space-sm rounded-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">scan</span>
+<span class="font-body-sm text-body-sm text-on-surface">91% SHG women found mainstream seller apps unusable.</span>
+</div>
+</div>
+<!-- Card 3: Counterfeiting & Machine Dilution -->
+<div class="bg-surface-container p-space-xl rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">content_copy</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Identity Erosion</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Industrial Duplication</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              Industrial power looms and polyester printing flood metro markets with fake “Warli prints” and synthetic “Kolhapuri chappals”, depressing market valuations of true handcrafted items.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/60 p-space-sm rounded-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-error text-[20px]">warning</span>
+<span class="font-body-sm text-body-sm text-on-surface">62% counterfeit rate in metropolitan ethnic novelty stores.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision Split Narrative Section -->
+<section class="w-full bg-surface-container-low py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-2xl items-stretch">
+<!-- Mission Panel -->
+<div class="bg-primary text-on-primary p-space-2xl rounded-3xl flex flex-col justify-between shadow-lg relative overflow-hidden">
+<div class="relative z-10">
+<div class="flex items-center gap-2 text-primary-fixed uppercase tracking-widest font-label-sm text-label-sm mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">target</span>
+              Our Primary Mission
+            </div>
+<h3 class="font-headline-lg text-headline-lg text-surface-bright leading-snug">
+              Decentralized, Direct-to-Consumer Sovereign Livelihoods
+            </h3>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim mt-space-md leading-relaxed">
+              To dismantle extraction cartels by granting every self-help group producer a voice-guided digital enterprise sovereignly owned by her collective, guaranteeing 100% of fair customer value hits village micro-accounts with zero middlemen dilution.
+            </p>
+<ul class="mt-space-xl flex flex-col gap-space-sm font-body-md text-body-md text-on-primary">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">check_circle</span>
+<span>Zero listing commissions or exploitative shelf fees</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">check_circle</span>
+<span>Self-determined pricing via AI benchmark calculators</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">check_circle</span>
+<span>Full community ownership of village data assets</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-2xl pt-space-lg relative z-10 flex items-center justify-between text-label-sm font-label-sm text-primary-fixed border-t border-primary-container">
+<span>MSRLM / UMED RECOGNIZED</span>
+<span class="font-mono">PROJECT ID: MH-GRAM-2025-V2</span>
+</div>
+</div>
+<!-- Vision Panel -->
+<div class="bg-surface-container-lowest p-space-2xl rounded-3xl flex flex-col justify-between shadow-md">
+<div>
+<div class="flex items-center gap-2 text-secondary uppercase tracking-widest font-label-sm text-label-sm mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+              Vision 2030
+            </div>
+<h3 class="font-headline-lg text-headline-lg text-primary leading-snug">
+              Every Village Cluster as an Autonomous Digital Guild
+            </h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-md leading-relaxed">
+              A Maharashtra where no artisan daughter or son must migrate into urban wage-labor distress because their generational craft commands global prestige and dependable, dignifying household economics from their native soil.
+            </p>
+<!-- Inline SVG Infographic: Artisan Value Chain Reversal -->
+<div class="mt-space-xl bg-surface-container-low p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold block mb-2">
+                Capital Flow Transformation
+              </span>
+<div class="w-full space-y-3">
+<div>
+<div class="flex justify-between font-label-sm text-label-sm mb-1 text-on-surface-variant">
+<span>Legacy Middleman Model</span>
+<span class="text-error font-bold">Artisan: 28%</span>
+</div>
+<div class="w-full h-3 bg-surface-container-highest rounded-full overflow-hidden flex">
+<div class="h-full bg-error" style="width: 28%"></div>
+<div class="h-full bg-outline-variant" style="width: 72%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-sm text-label-sm mb-1 text-primary font-bold">
+<span>GRAMUDYAM Direct Protocol</span>
+<span class="text-primary font-bold">Artisan: 94.2%</span>
+</div>
+<div class="w-full h-3 bg-surface-container-highest rounded-full overflow-hidden flex">
+<div class="h-full bg-primary" style="width: 94.2%"></div>
+<div class="h-full bg-secondary-container" style="width: 5.8%"></div>
+</div>
+</div>
+</div>
+<span class="block mt-2 font-body-sm text-body-sm text-on-surface-variant text-right">
+                *5.8% covers village shipping packaging and payment gateway cost.
+              </span>
+</div>
+</div>
+<div class="mt-space-lg flex items-center gap-space-md pt-space-md">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-8 w-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm">38</span>
+<span class="inline-block h-8 w-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-sm text-label-sm">GI</span>
+<span class="inline-block h-8 w-8 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-label-sm text-label-sm">MH</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              Targeting 353 Talukas across 36 Districts by 2028.
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How GRAMUDYAM Works (AI + Human Triad) -->
+<section class="w-full bg-surface py-space-3xl" id="pillars">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-3xl mx-auto mb-space-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Architecture of Dignity</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">How GRAMUDYAM Operates: AI + Human Triad</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Rather than imposing Western e-commerce patterns onto rural communities, we adapted breakthrough technologies to fit natural village rhythms.
+        </p>
+</div>
+<!-- 3 Pillars Grid with Micro-Interactions -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl">
+<!-- Pillar 1: Voice AI Cataloging -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-lg group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[30px]">mic</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Pillar 01 • Natural Speech</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Voice AI Cataloging</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              An artisan taps the mic button and simply speaks in her native tongue: <span class="italic text-on-surface">“मी हे तीन दिवसांत हातमागावर बनवले, यात गावरान कापूस आणि हळद-नीळ नैसर्गिक रंग वापरलेत.”</span>
+</p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-xl flex flex-col gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+<span>Multimodal Vernacular LLM</span>
+</div>
+<span>Automatically drafts English/Hindi descriptions, identifies yarn GSM, tags craft genre, and benchmarks fair export rates.</span>
+</div>
+</div>
+<div class="mt-space-xl pt-space-md flex items-center justify-between text-primary font-label-md text-label-md">
+<span>Zero Typing Required</span>
+<span class="material-symbols-outlined text-[18px]">graphic_eq</span>
+</div>
+</div>
+<!-- Pillar 2: Sovereign QR TrustTag -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-lg group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[30px]">qr_code_2</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Pillar 02 • Cryptographic Provenance</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Sovereign QR TrustTag</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              Every dispatched artifact ships with an immutable tamper-evident QR seal linked to village cooperative ledgers, certifying Geographical Indication (GI) and raw material authenticity.
+            </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-xl flex flex-col gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span>GI Registry Integration</span>
+</div>
+<span>End-buyers scan the seal to view artisan portrait, exact village geo-pin, hours worked, and fair-share compensation breakdown.</span>
+</div>
+</div>
+<div class="mt-space-xl pt-space-md flex items-center justify-between text-primary font-label-md text-label-md">
+<span>Immutable Trust Chain</span>
+<span class="material-symbols-outlined text-[18px]">fingerprint</span>
+</div>
+</div>
+<!-- Pillar 3: Direct DBT & UPI Payouts -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center mb-space-lg group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[30px]">account_balance_wallet</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Pillar 03 • Instant Escrow</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Direct DBT &amp; UPI Payouts</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+              Settlements are executed via National Payments Corporation of India (NPCI) Aadhaar-enabled frameworks directly to women's individual or Bachat Gat accounts in &lt;24 hours.
+            </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-xl flex flex-col gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">security</span>
+<span>Non-Custodial Escrow</span>
+</div>
+<span>No corporate float retention or arbitrary 45-day payment holding periods common in retail commerce portals.</span>
+</div>
+</div>
+<div class="mt-space-xl pt-space-md flex items-center justify-between text-primary font-label-md text-label-md">
+<span>T+1 Direct Settlement</span>
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community Impact Metrics Section with Rich Visual Counters -->
+<section class="w-full bg-surface-container-high py-space-3xl" id="impact">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-space-md mb-space-2xl">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Verified Metrics • Q1 2025</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Scale of Village Empowerment</h2>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">sync</span>
+<span>Synced live with UMED SHG Data Hub</span>
+</div>
+</div>
+<!-- 4 High Impact Counters -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[28px]">groups</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full">+41% YoY</span>
+</div>
+<div class="mt-space-lg">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">12,400+</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-1">Active Rural Entrepreneurs</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              88% are women self-help group members across rural belts.
+            </p>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-2 py-0.5 rounded-full">5 Key Belts</span>
+</div>
+<div class="mt-space-lg">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">38</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-1">Village Craft Clusters</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Deep roots in Palghar, Kolhapur, Solapur, Gadchiroli, Paithan.
+            </p>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[28px]">currency_rupee</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full">Zero Commission</span>
+</div>
+<div class="mt-space-lg">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">₹4.8 Cr</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-1">Direct Bank Remittance</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Deposited straight into Bachat Gat accounts via DBT protocols.
+            </p>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[28px]">workspace_premium</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-2 py-0.5 rounded-full">GI Standard</span>
+</div>
+<div class="mt-space-lg">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">98.4%</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-1">Craft Purity Score</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Third-party material verification and hand-weaving certification.
+            </p>
+</div>
+</div>
+</div>
+<!-- Cluster Geographical Showcase Card -->
+<div class="mt-space-xl bg-surface-container p-space-xl rounded-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-5 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Indigenous Craft Geography</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Preserving Maharashtra’s GI Heritage</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Every region carries unique soil, technique, and cultural memory. GRAMUDYAM preserves micro-patents and fair-share compensation for indigenous craftspeople.
+            </p>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Palghar • Jawhar</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Warli Folk Art</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1,820 Active Artisans</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Kolhapur • Shirol</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Vegetable Tan Leather</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">940 Cobbler Guilds</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Solapur • Akkalkot</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Chaddar &amp; Towels</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3,110 Handlooms</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Gadchiroli • Dhanora</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Kosa Wild Silk</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1,450 Forest Gatherers</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Paithan • Sambhajinagar</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Zari Paithani Silks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2,200 Master Weavers</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Sawantwadi • Sindhudurg</span>
+<span class="font-title-md text-title-md text-primary block mt-0.5">Lacquer Wooden Toys</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">610 Wood Turners</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership, Institutional Alliances & Ecosystem -->
+<section class="w-full bg-surface py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="max-w-2xl mb-space-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Institutional Alliance</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Backed by Public Infrastructure</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          GRAMUDYAM operates as a hybrid mission: combining civil engineering with public livelihood frameworks for nationwide transparency and sovereign craft equity.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Partner 1 -->
+<div class="bg-surface-container-low p-space-xl rounded-2xl flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-primary">UMED / MSRLM</h4>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Maharashtra State Rural Livelihoods</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Mobilizing 400,000+ registered Self-Help Groups across 34 district hubs with physical verification, seed finance, and community cadre mobilization.
+            </p>
+</div>
+<div class="mt-space-lg flex items-center gap-1.5 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Cluster Cadre Verifier</span>
+</div>
+</div>
+<!-- Partner 2 -->
+<div class="bg-surface-container-low p-space-xl rounded-2xl flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-on-secondary">
+<span class="material-symbols-outlined text-[20px]">forest</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-primary">TRIFED Maharashtra</h4>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Tribal Cooperative Federation</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Protecting forest non-timber forest produce (NTFP), wild honey, mahua derivatives, and authentic Warli tribal iconography against industrial piracy.
+            </p>
+</div>
+<div class="mt-space-lg flex items-center gap-1.5 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Tribal Provenance Guardian</span>
+</div>
+</div>
+<!-- Partner 3 -->
+<div class="bg-surface-container-low p-space-xl rounded-2xl flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-full bg-tertiary flex items-center justify-center text-on-tertiary">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-primary">IIT Bombay / CTARA</h4>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Rural Technology Technology Partner</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Providing low-bandwidth edge AI, vernacular speech synthesis, and local natural dye quality testing protocols for village micro-enterprises.
+            </p>
+</div>
+<div class="mt-space-lg flex items-center gap-1.5 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>AI Architecture &amp; R&amp;D</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Large Action Banner: Join the Mission -->
+<section class="w-full max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop mb-space-3xl">
+<div class="bg-tertiary text-on-tertiary p-space-xl md:p-space-3xl rounded-3xl relative overflow-hidden shadow-2xl">
+<div class="relative z-10 max-w-3xl flex flex-col gap-space-md">
+<span class="inline-flex items-center gap-2 text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+<span class="material-symbols-outlined text-[18px]">volunteer_activism</span>
+          Movement for Rural Craft Sovereignty
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright leading-tight">
+          Join our mission to empower rural Maharashtra
+        </h2>
+<p class="font-body-lg text-body-lg text-tertiary-fixed-dim max-w-2xl">
+          Whether you are a sustainable design studio sourcing verified handlooms, an ethical corporate gifting buyer, or a rural activist, GRAMUDYAM provides open infrastructure to connect directly with producers.
+        </p>
+<div class="pt-space-md flex flex-wrap items-center gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs bg-secondary text-on-secondary hover:bg-secondary-fixed-variant px-space-xl py-space-sm rounded-lg font-label-lg text-label-lg shadow-md transition-colors" data-path="register" href="#">
+<span>Partner as Corporate Buyer</span>
+<span class="material-symbols-outlined text-[18px]">business_center</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-bright text-primary hover:bg-surface-container-high px-space-xl py-space-sm rounded-lg font-label-lg text-label-lg transition-colors" data-path="marketplace" href="#">
+<span>Support Artisan Clusters</span>
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+</a>
+<a class="inline-flex items-center gap-1.5 text-tertiary-fixed hover:text-surface-bright font-label-md text-label-md transition-colors" href="#helpline">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>SHG Onboarding Desk: 1800-200-8899</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple interactive micro-state for linguistic preview
+  document.querySelectorAll('[data-path]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      // Fallback prevention if mockup previewing
+      if (link.getAttribute('href') === '#') {
+        e.preventDefault();
+      }
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-space-3xl"><div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-space-3xl pb-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Make the circular emblem logo significantly bigger, zoomed in so it fills the frame with minimal outer padding. Retain the exact same design, iconography, and typography: the intricate Indian banyan tree blended with rising sun rays and digital node branches, the curved text 'GRAMUDYAM' at the bottom, rendered in deep forest green (#234F3D) and warm terracotta (#C96F4A) on an organic cream background. Sharp, clean vector aesthetic with high contrast and presence." class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VgFD6jAkUH9r55bh8lHRxjZNwKJMH88gaSe30oiSteMr0BlL_irz-Xsjx8qVOepHye3MEAItXsNDexiSMAVVC9TpAopEByLLcxBRl1MUGwQQGzq5pDC1ewZvmltM1GmwvjnNjaig2kw9QETnw0e2XwCxUk-_QxJpPAzGc-RUtRFn_9YL0X7uHplU-Ow_y7395bqn0dDBdSFSxWn7aYdxkaLrdxHzmklB_AF9jhu9OBBaV9euBAY4r7wFg"/><span class="font-headline-sm text-headline-sm text-primary">GRAMUDYAM</span></div><p class="font-body-md text-body-md text-on-surface-variant pr-space-lg">Direct rural-to-urban value highway for Maharashtra's village artisans, agricultural SHGs, and handloom collectives. Empowering sustainable livelihoods through transparent commerce and cultural preservation.</p><div class="flex items-center gap-space-sm mt-space-xs"><span class="material-symbols-outlined text-secondary text-[24px]">verified</span><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">Partnership Initiative</span><span class="font-body-sm text-body-sm text-on-surface-variant">Maharashtra Rural Livelihood Mission (UMED)</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-primary">Quick Links</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="about" href="#">About Mission</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Artisans &amp; SHGs</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Rural Marketplace</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Our Impact</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Verification &amp; GI</a></ul></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-primary">Policies &amp; Support</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Fair Trade Charter</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Logistics Support</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Terms of Enterprise</a><a class="hover:text-primary transition-colors" data-path="register" href="#">SHG Onboarding Manual</a></ul></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-primary">Support Helpline</span><div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[20px]">support_agent</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Toll-Free Helpline</span></div><span class="font-headline-sm text-headline-sm text-primary">1800-200-8899</span><span class="font-body-sm text-body-sm text-on-surface-variant">Mon - Sat, 9:00 AM - 7:00 PM IST (Marathi / Hindi / English)</span></div><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[18px]">language</span><span class="font-label-md text-label-md">Available in मराठी, हिंदी, English</span></div></div></div><div class="mt-space-2xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 GRAMUDYAM. Government of Maharashtra Initiative. All rights reserved.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" data-path="about" href="#">Civic Network</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Artisanal Registry</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Security &amp; Trust</a></div></div></div></footer></body></html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-bright": "#fff9eb", "on-secondary": "#ffffff", "on-primary": "#ffffff", "inverse-surface": "#333027", "error": "#ba1a1a", "inverse-on-surface": "#f6f0e2", "error-container": "#ffdad6", "tertiary": "#15372a", "on-background": "#1d1c13", "secondary-fixed": "#ffdbce", "primary": "#073827", "on-tertiary-fixed": "#002116", "on-tertiary": "#ffffff", "surface-container-high": "#eee8da", "on-secondary-container": "#76300f", "tertiary-fixed-dim": "#aacfbc", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "secondary-fixed-dim": "#ffb599", "surface": "#fff9eb", "on-secondary-fixed": "#370e00", "tertiary-container": "#2c4e40", "on-error-container": "#93000a", "primary-fixed-dim": "#a2d1b9", "on-primary-fixed-variant": "#234f3d", "on-surface-variant": "#414944", "secondary-container": "#fe9971", "primary-fixed": "#bdedd5", "on-surface": "#1d1c13", "on-primary-fixed": "#002115", "surface-dim": "#dfdacc", "surface-tint": "#3b6754", "surface-container-low": "#f9f3e5", "secondary": "#964826", "background": "#fff9eb", "surface-variant": "#e8e2d4", "on-primary-container": "#91c0a9", "tertiary-fixed": "#c5ebd8", "surface-container": "#f3eddf", "inverse-primary": "#a2d1b9", "primary-container": "#234f3d", "on-secondary-fixed-variant": "#783111", "on-tertiary-container": "#9abeac", "outline": "#717974", "surface-container-highest": "#e8e2d4", "on-tertiary-fixed-variant": "#2c4d3f", "outline-variant": "#c0c8c2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "space-2xl": "3rem", "margin-desktop": "5rem", "gutter-desktop": "1.5rem", "space-md": "1rem", "space-sm": "0.75rem", "space-2xs": "0.25rem", "space-3xl": "4rem", "margin-tablet": "2rem", "space-xl": "2rem" }, "fontFamily": { "label-lg": ["Inter"], "label-md": ["Inter"], "display-lg": ["Playfair Display"], "title-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Playfair Display"], "body-sm": ["Inter"], "title-lg": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Playfair Display"], "body-md": ["Inter"], "display-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "title-lg": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["26px", { "lineHeight": "34px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "display-lg-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface"><main class="w-full min-h-screen bg-background flex flex-col justify-center"><div class="flex flex-col w-full">
+<!-- Subtle decorative ambient glow elements -->
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 overflow-hidden">
+<div class="absolute -top-24 -left-20 w-96 h-96 rounded-full bg-secondary/5 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/3 -right-24 w-80 h-80 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<!-- Header & Visual Storytelling Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start mb-12">
+<!-- Left Column: Context & Inspiration Callout -->
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div class="flex items-center gap-2 mb-4">
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm font-label-sm tracking-wider uppercase">
+<span class="material-symbols-outlined text-[14px] mr-1 text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+            Maharashtra Rural Artisans Mission
+          </span>
+<span class="text-outline-variant">•</span>
+<span class="text-on-surface-variant text-label-sm font-label-sm">शेतकरी व कारागीर मंच</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display-lg lg:font-display-lg text-primary tracking-tight mb-3">
+          Join GRAMUDYAM
+          <span class="block text-secondary font-headline-md text-headline-md italic font-normal mt-1">ग्रामोद्यम परिवारात सामील व्हा</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-8">
+          Choose how you want to experience authentic rural craftsmanship. Connecting verified Self-Help Groups (बचत गट), terracotta artists, and handloom weavers directly with conscious buyers across India.
+        </p>
+<!-- Mini Metric / Heritage Seal Strip -->
+<div class="grid grid-cols-3 gap-3 p-4 rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">14,200+</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Rural Artisans</span>
+</div>
+<div class="flex flex-col border-l border-surface-container-highest pl-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Direct UPI Payouts</span>
+</div>
+<div class="flex flex-col border-l border-surface-container-highest pl-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">GI Tag</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Authentic Folk Art</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Contextual Visual Frame -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-72 sm:h-80 object-cover" data-alt="An authentic rural Maharashtrian woman artisan wearing a deep green traditional saree painting intricate Warli motifs onto an earthen terracotta pot in her sunlit village courtyard with a digital tablet displaying live artisan sales analytics beside her" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYOSbp1lcJUiEprv568WIxrTHlqjx2HZqGH-SjDuTiRukCb6a-gLfRSIuRBfvyzqmkO-MahvdQTOHM3-jo8k0Xtxcanm4gxqrgMImWeimJuKBkD2q1qLSmenDFF1czhDRvsRACR3fDAHgf30fCKYMfMekelFLVyEGG7RpsEmauQhIvcZ2ztlJSo_VWrhmJNHlJ2-lu-6u9VjBBSO0fRIJy7G8ih9jnfxWxtDfEFEHO3p1TZOvwgBq-lg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent flex flex-col justify-end p-6">
+<div class="inline-flex items-center gap-1.5 self-start px-2.5 py-1 rounded-full bg-surface-bright/90 backdrop-blur text-primary text-label-sm font-label-sm mb-2 shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary">eco</span>
+<span>Dahanu, Palghar District</span>
+</div>
+<p class="text-on-primary font-title-md text-title-md font-medium leading-snug">
+              “आता आमची वारली कला थेट जगभरात पोहोचते, मधल्या दलालांशिवाय.”
+            </p>
+<span class="text-on-primary-container text-body-sm font-body-sm mt-1">
+              — सावित्रीबाई भोईर, वारली शिल्पकार बचत गट
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Onboarding Flow Section -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-10 shadow-lg mb-12">
+<!-- Step Overline -->
+<div class="text-center max-w-xl mx-auto mb-8">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-widest block mb-1">पायरी १: आपली भूमिका निवडा</span>
+<h2 class="font-headline-md text-headline-md text-primary">Select Your Registration Pathway</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Select how you intend to interact with the platform to access tailored tools.</p>
+</div>
+<!-- Interactive Persona Selection Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 max-w-4xl mx-auto">
+<!-- Persona: Buyer / Customer -->
+<div class="cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-container-low hover:bg-surface-container hover:shadow-md flex flex-col justify-between" id="persona-buyer" onclick="selectPersona('buyer')">
+<div class="flex items-start justify-between mb-4">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">local_mall</span>
+</div>
+<div class="w-6 h-6 rounded-full flex items-center justify-center bg-surface-variant transition-colors" id="radio-buyer">
+<div class="w-2.5 h-2.5 rounded-full bg-primary opacity-0 transition-opacity"></div>
+</div>
+</div>
+<div>
+<div class="inline-flex items-center gap-1 text-label-sm font-label-sm text-secondary font-semibold uppercase tracking-wider mb-1">
+              Consumer / Collector
+            </div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold mb-1">
+              I want to buy products
+            </h3>
+<p class="font-label-md text-label-md text-primary-container font-medium mb-3">
+              मला अस्सल वस्तू खरेदी करायच्या आहेत
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Discover verified GI-tagged folk arts, organic handspun textiles, brass metalcrafts, and direct-from-source rural foods with QR TrustTag digital authenticity proofs.
+            </p>
+</div>
+<div class="mt-5 pt-4 flex items-center gap-2 text-label-sm font-label-sm text-primary">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+<span>100% Genuine Artisan Direct Guarantee</span>
+</div>
+</div>
+<!-- Persona: Artisan / Entrepreneur -->
+<div class="cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-bright shadow-md flex flex-col justify-between" id="persona-artisan" onclick="selectPersona('artisan')">
+<!-- Active highlight badge for default rural-focused persona -->
+<div class="absolute -top-3 right-6 bg-secondary text-on-secondary px-3 py-0.5 rounded-full text-label-sm font-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>Zero Setup Fees</span>
+</div>
+<div class="flex items-start justify-between mb-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container shadow-sm">
+<span class="material-symbols-outlined text-2xl">storefront</span>
+</div>
+<div class="w-6 h-6 rounded-full flex items-center justify-center bg-primary transition-colors" id="radio-artisan">
+<div class="w-2.5 h-2.5 rounded-full bg-on-primary transition-opacity"></div>
+</div>
+</div>
+<div>
+<div class="inline-flex items-center gap-1 text-label-sm font-label-sm text-secondary font-semibold uppercase tracking-wider mb-1">
+              Producer / SHG / Bachat Gat
+            </div>
+<h3 class="font-title-lg text-title-lg text-primary font-semibold mb-1">
+              I want to sell my products
+            </h3>
+<p class="font-label-md text-label-md text-secondary font-medium mb-3">
+              मला माझी उत्पादने विकायची आहेत
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Transform your local craft into an online enterprise with free Marathi AI voice cataloging, zero upfront platform commissions, and direct daily bank/UPI payouts.
+            </p>
+</div>
+<div class="mt-5 pt-4 flex items-center gap-2 text-label-sm font-label-sm text-secondary">
+<span class="material-symbols-outlined text-sm">mic</span>
+<span>Free Voice Listing in Marathi &amp; Hindi</span>
+</div>
+</div>
+</div>
+<!-- Registration Forms Container -->
+<div class="max-w-2xl mx-auto">
+<!-- CUSTOMER / BUYER FORM -->
+<form class="hidden flex-col gap-6" id="form-buyer" onsubmit="event.preventDefault(); handleSubmit('Customer');">
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">account_circle</span>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Buyer Profile Creation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Setup your personalized artisanal catalog and tracking dashboard</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Full Name <span class="text-error">*</span></label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="e.g., Ananya Deshmukh" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Email Address <span class="text-error">*</span></label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="ananya@example.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Mobile Number (+91) <span class="text-error">*</span></label>
+<div class="relative flex items-center">
+<span class="absolute left-4 font-label-md text-label-md text-outline">+91</span>
+<input class="w-full pl-14 pr-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" pattern="[0-9]{10}" placeholder="98765 43210" required="" type="tel"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Create Password <span class="text-error">*</span></label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="Minimum 8 characters" required="" type="password"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface">Order Updates &amp; Provenance Tracking via:</label>
+<div class="flex gap-4">
+<label class="flex items-center gap-2 cursor-pointer bg-surface-container-low px-4 py-2.5 rounded-lg flex-1">
+<input checked="" class="accent-primary w-4 h-4" name="comm-pref" type="radio" value="whatsapp"/>
+<span class="font-body-sm text-body-sm text-on-surface font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">chat</span> WhatsApp
+                </span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface-container-low px-4 py-2.5 rounded-lg flex-1">
+<input class="accent-primary w-4 h-4" name="comm-pref" type="radio" value="sms"/>
+<span class="font-body-sm text-body-sm text-on-surface font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">sms</span> SMS &amp; Email
+                </span>
+</label>
+</div>
+</div>
+<!-- Buyer Terms -->
+<div class="flex items-start gap-2.5 pt-2">
+<input class="mt-1 accent-primary w-4 h-4 rounded" id="terms-buyer" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="terms-buyer">
+              I agree to the Fair Trade Pledge, protecting tribal artisan intellectual property and standard Gramudyam Customer Terms.
+            </label>
+</div>
+<button class="w-full py-3.5 px-6 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg font-semibold hover:bg-tertiary shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2" type="submit">
+<span>Create Account &amp; Start Exploring (खाते तयार करा)</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</form>
+<!-- ARTISAN / PRODUCER FORM (Default Selected) -->
+<form class="flex flex-col gap-6" id="form-artisan" onsubmit="event.preventDefault(); handleSubmit('Artisan');">
+<div class="bg-surface-bright p-4 rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-2xl">handyman</span>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Artisan Producer Registration (कारागीर नोंदणी)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct listing privileges, daily UPI settle &amp; AI craft tagging</p>
+</div>
+</div>
+<button class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary text-on-secondary text-label-sm font-label-sm shadow-sm hover:opacity-90" onclick="triggerVoiceAssist()" type="button">
+<span class="material-symbols-outlined text-sm">mic</span>
+<span>मदतीसाठी बोला</span>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">
+                Full Name / पूर्ण नाव <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="उदा. मंदाबाई शांताराम केणी" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">
+                Mobile Number / मोबाईल क्रमांक <span class="text-error">*</span>
+</label>
+<div class="relative flex items-center">
+<span class="absolute left-4 font-label-md text-label-md text-outline">+91</span>
+<input class="w-full pl-14 pr-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" pattern="[0-9]{10}" placeholder="98221 00000" required="" type="tel"/>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">
+                Village &amp; District / गाव व जिल्हा <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="उदा. डहाणू, पालघर किंवा पैठण, छत्रपती संभाजीनगर" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">
+                Primary Craft Category / मुख्य कला प्रकार <span class="text-error">*</span>
+</label>
+<select class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" required="">
+<option disabled="" selected="" value="">निवडा (Choose craft)</option>
+<option value="warli">वारली चित्रकला (Warli Art Painting)</option>
+<option value="terracotta">मातीची भांडी व शिल्पे (Terracotta &amp; Clay Pottery)</option>
+<option value="paithani">पैठणी व हातमाग (Paithani &amp; Handloom Weaving)</option>
+<option value="brass">तांबे व पितळ काम (Dhokra &amp; Brass Craft)</option>
+<option value="bamboo">बांबू हस्तकला (Bamboo &amp; Cane Basketry)</option>
+<option value="agro">सेंद्रिय शेतीमाल / मसाले (Organic Rural Agro/Food)</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<label class="font-label-md text-label-md text-on-surface">SHG / Bachat Gat Name</label>
+<span class="text-label-sm text-label-sm text-outline">ऐच्छिक (Optional)</span>
+</div>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="उदा. जय भवानी महिला बचत गट" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<label class="font-label-md text-label-md text-on-surface">Bank Account or UPI ID <span class="text-error">*</span></label>
+<span class="text-label-sm text-label-sm text-secondary font-medium">Daily Direct Credit</span>
+</div>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm font-body-md text-body-md" placeholder="e.g., 9822100000@upi किंवा खाते क्रमांक" required="" type="text"/>
+</div>
+</div>
+<!-- Gram Sevak & Assistance Box -->
+<div class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl mt-0.5">support_agent</span>
+<div class="text-body-sm font-body-sm text-on-surface-variant">
+<span class="font-semibold text-on-surface">अडचण येत आहे का? (Need help filling this?)</span>
+<p class="mt-0.5">आपल्या गावातील ग्रामसेवक किंवा ग्रामोद्यम सखी तुमच्या घरी येऊन मोफत नोंदणी करून देतील. <a class="text-secondary font-semibold hover:underline" href="tel:1800209000">टोल फ्री: १८००-२०९-०००</a></p>
+</div>
+</div>
+<!-- Artisan Verification Checkbox -->
+<div class="flex items-start gap-2.5">
+<input class="mt-1 accent-primary w-4 h-4 rounded" id="terms-artisan" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="terms-artisan">
+              मी प्रमाणित करतो/करते की मी अस्सल हस्तकला उत्पादक असून उत्पादनांची माहिती खरी आहे. (I certify that my craft products are genuine and handmade).
+            </label>
+</div>
+<button class="w-full py-4 px-6 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg font-semibold hover:bg-tertiary shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 text-center" type="submit">
+<span>Create Artisan Account (कारागीर खाते तयार करा)</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</form>
+<!-- Dynamic Success Toast (Hidden by default) -->
+<div class="hidden mt-6 p-4 rounded-xl bg-primary text-on-primary items-center justify-between shadow-xl" id="registration-toast">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-fixed text-2xl" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div>
+<p class="font-title-md text-title-md font-semibold" id="toast-title">Account Created Successfully!</p>
+<p class="font-body-sm text-body-sm text-on-primary-container" id="toast-sub">Redirecting to verification dashboard...</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-primary cursor-pointer" onclick="closeToast()">close</span>
+</div>
+<!-- Sign In Link -->
+<div class="mt-8 text-center pt-6">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Already have an account? 
+            <a class="font-label-lg text-label-lg text-secondary hover:text-on-secondary-container underline underline-offset-4 ml-1" href="/login">
+              Sign In (येथे लॉगिन करा)
+            </a>
+</p>
+</div>
+</div>
+</div>
+<!-- Reassurance & Trust Badges Strip -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 pb-8">
+<!-- Trust Card 1 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex-shrink-0 flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">percent</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold mb-1">
+            Zero Platform Fee
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            No commission on your first 20 orders. 100% of the sale proceeds reach your registered bank account directly.
+          </p>
+</div>
+</div>
+<!-- Trust Card 2 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex-shrink-0 flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-2xl">assured_workload</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold mb-1">
+            MSRLM Recognized
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Officially aligned with Government of Maharashtra State Rural Livelihoods Mission (उमेद) and Mahila Arthik Vikas Mahamandal.
+          </p>
+</div>
+</div>
+<!-- Trust Card 3 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex-shrink-0 flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-2xl">record_voice_over</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold mb-1">
+            Voice-Assisted Onboarding
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Gram Sevak village kiosks and conversational voice AI empower zero-literacy catalog creation in native dialects.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function selectPersona(type) {
+    const cardBuyer = document.getElementById('persona-buyer');
+    const cardArtisan = document.getElementById('persona-artisan');
+    const formBuyer = document.getElementById('form-buyer');
+    const formArtisan = document.getElementById('form-artisan');
+    const radioBuyer = document.getElementById('radio-buyer');
+    const radioArtisan = document.getElementById('radio-artisan');
+
+    if (type === 'buyer') {
+      // Buyer Selected
+      cardBuyer.className = "cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-bright shadow-md flex flex-col justify-between";
+      cardArtisan.className = "cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-container-low hover:bg-surface-container hover:shadow-md flex flex-col justify-between";
+
+      radioBuyer.className = "w-6 h-6 rounded-full flex items-center justify-center bg-primary transition-colors";
+      radioBuyer.children[0].className = "w-2.5 h-2.5 rounded-full bg-on-primary transition-opacity";
+
+      radioArtisan.className = "w-6 h-6 rounded-full flex items-center justify-center bg-surface-variant transition-colors";
+      radioArtisan.children[0].className = "w-2.5 h-2.5 rounded-full bg-primary opacity-0 transition-opacity";
+
+      formBuyer.classList.remove('hidden');
+      formBuyer.classList.add('flex');
+      formArtisan.classList.remove('flex');
+      formArtisan.classList.add('hidden');
+    } else {
+      // Artisan Selected
+      cardArtisan.className = "cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-bright shadow-md flex flex-col justify-between";
+      cardBuyer.className = "cursor-pointer group relative p-6 sm:p-7 rounded-xl transition-all duration-200 bg-surface-container-low hover:bg-surface-container hover:shadow-md flex flex-col justify-between";
+
+      radioArtisan.className = "w-6 h-6 rounded-full flex items-center justify-center bg-primary transition-colors";
+      radioArtisan.children[0].className = "w-2.5 h-2.5 rounded-full bg-on-primary transition-opacity";
+
+      radioBuyer.className = "w-6 h-6 rounded-full flex items-center justify-center bg-surface-variant transition-colors";
+      radioBuyer.children[0].className = "w-2.5 h-2.5 rounded-full bg-primary opacity-0 transition-opacity";
+
+      formArtisan.classList.remove('hidden');
+      formArtisan.classList.add('flex');
+      formBuyer.classList.remove('flex');
+      formBuyer.classList.add('hidden');
+    }
+  }
+
+  function triggerVoiceAssist() {
+    alert("मराठी व्हॉईस असिस्टंट सक्रिय झाला आहे. कृपया बोला: 'माझे नाव...' (Microphone activated in Marathi voice mode).");
+  }
+
+  function handleSubmit(role) {
+    const toast = document.getElementById('registration-toast');
+    const toastTitle = document.getElementById('toast-title');
+    const toastSub = document.getElementById('toast-sub');
+
+    toastTitle.innerText = role === 'Artisan' ? 'नोंदणी यशस्वी! (Artisan Profile Created)' : 'Customer Profile Activated!';
+    toastSub.innerText = role === 'Artisan' 
+      ? 'ग्रामसेवक पडताळणी व कॅटलॉग सेटअपसाठी एसएमएस पाठवला आहे.' 
+      : 'Welcome to Gramudyam. Accessing curated artisanal craft collections...';
+
+    toast.classList.remove('hidden');
+    toast.classList.add('flex');
+
+    window.scrollTo({
+      top: toast.offsetTop - 120,
+      behavior: 'smooth'
+    });
+  }
+
+  function closeToast() {
+    document.getElementById('registration-toast').classList.add('hidden');
+    document.getElementById('registration-toast').classList.remove('flex');
+  }
+</script></main></body></html>

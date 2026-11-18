@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-bright": "#fff9eb", "on-secondary": "#ffffff", "on-primary": "#ffffff", "inverse-surface": "#333027", "error": "#ba1a1a", "inverse-on-surface": "#f6f0e2", "error-container": "#ffdad6", "tertiary": "#15372a", "on-background": "#1d1c13", "secondary-fixed": "#ffdbce", "primary": "#073827", "on-tertiary-fixed": "#002116", "on-tertiary": "#ffffff", "surface-container-high": "#eee8da", "on-secondary-container": "#76300f", "tertiary-fixed-dim": "#aacfbc", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "secondary-fixed-dim": "#ffb599", "surface": "#fff9eb", "on-secondary-fixed": "#370e00", "tertiary-container": "#2c4e40", "on-error-container": "#93000a", "primary-fixed-dim": "#a2d1b9", "on-primary-fixed-variant": "#234f3d", "on-surface-variant": "#414944", "secondary-container": "#fe9971", "primary-fixed": "#bdedd5", "on-surface": "#1d1c13", "on-primary-fixed": "#002115", "surface-dim": "#dfdacc", "surface-tint": "#3b6754", "surface-container-low": "#f9f3e5", "secondary": "#964826", "background": "#fff9eb", "surface-variant": "#e8e2d4", "on-primary-container": "#91c0a9", "tertiary-fixed": "#c5ebd8", "surface-container": "#f3eddf", "inverse-primary": "#a2d1b9", "primary-container": "#234f3d", "on-secondary-fixed-variant": "#783111", "on-tertiary-container": "#9abeac", "outline": "#717974", "surface-container-highest": "#e8e2d4", "on-tertiary-fixed-variant": "#2c4d3f", "outline-variant": "#c0c8c2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "space-2xl": "3rem", "margin-desktop": "5rem", "gutter-desktop": "1.5rem", "space-md": "1rem", "space-sm": "0.75rem", "space-2xs": "0.25rem", "space-3xl": "4rem", "margin-tablet": "2rem", "space-xl": "2rem" }, "fontFamily": { "label-lg": ["Inter"], "label-md": ["Inter"], "display-lg": ["Playfair Display"], "title-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Playfair Display"], "body-sm": ["Inter"], "title-lg": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Playfair Display"], "body-md": ["Inter"], "display-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "title-lg": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["26px", { "lineHeight": "34px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "display-lg-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(22,56,43,0.06)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><img alt="Make the circular emblem logo significantly bigger, zoomed in so it fills the frame with minimal outer padding. Retain the exact same design, iconography, and typography: the intricate Indian banyan tree blended with rising sun rays and digital node branches, the curved text 'GRAMUDYAM' at the bottom, rendered in deep forest green (#234F3D) and warm terracotta (#C96F4A) on an organic cream background. Sharp, clean vector aesthetic with high contrast and presence." class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VgFD6jAkUH9r55bh8lHRxjZNwKJMH88gaSe30oiSteMr0BlL_irz-Xsjx8qVOepHye3MEAItXsNDexiSMAVVC9TpAopEByLLcxBRl1MUGwQQGzq5pDC1ewZvmltM1GmwvjnNjaig2kw9QETnw0e2XwCxUk-_QxJpPAzGc-RUtRFn_9YL0X7uHplU-Ow_y7395bqn0dDBdSFSxWn7aYdxkaLrdxHzmklB_AF9jhu9OBBaV9euBAY4r7wFg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">GRAMUDYAM</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest leading-none mt-1">Maharashtra Rural Network</span></div></a><nav class="hidden lg:flex items-center gap-space-lg ml-space-md" data-active-classes="text-primary font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="marketplace" href="#">Marketplace</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="how-it-works" href="#">How It Works</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-2xs bg-surface-container-high px-space-xs py-1 rounded-full"><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full bg-primary text-on-primary" type="button">EN</button><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full text-on-surface-variant hover:text-on-surface" type="button">मराठी</button><button class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full text-on-surface-variant hover:text-on-surface" type="button">हिंदी</button></div><div class="flex items-center gap-space-sm"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary px-space-sm py-space-xs transition-colors" data-path="login" href="#">Login</a><a class="hidden md:inline-flex items-center justify-center font-label-lg text-label-lg bg-secondary text-on-secondary hover:bg-secondary-fixed-variant px-space-md py-space-xs rounded-lg shadow-sm transition-colors" data-path="register" href="#">Become an Entrepreneur</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Top Sovereign Trust Header Banner -->
+<section class="w-full bg-gradient-to-r from-primary via-primary-container to-primary text-on-primary py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin-desktop shadow-md relative overflow-hidden">
+<div class="absolute -right-20 -top-20 w-96 h-96 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg relative z-10">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs bg-surface-bright/15 text-primary-fixed backdrop-blur-md px-space-md py-1 rounded-full w-fit">
+<span class="material-symbols-outlined text-[18px] text-primary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm uppercase tracking-widest text-primary-fixed">✓ OFFICIALLY VERIFIED PRODUCT • महाराष्ट्र शासन व ट्रायफेड संलग्न</span>
+</div>
+<h1 class="font-headline-lg md:font-display-lg text-headline-lg md:text-display-lg text-on-primary tracking-tight mt-space-2xs">
+          Authenticity &amp; Provenance Certificate
+        </h1>
+<span class="font-headline-sm text-primary-fixed-dim italic">
+          सत्यता व मूळ स्थान प्रमाणपत्र • Live Immutable Ledger
+        </span>
+</div>
+<div class="flex flex-col items-start md:items-end bg-surface-bright/10 backdrop-blur-md p-space-md rounded-xl text-on-primary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">qr_code_2</span>
+<span class="font-label-md text-secondary-fixed">Batch #MH-WARLI-1024</span>
+</div>
+<div class="font-body-sm text-surface-container-high opacity-90 mt-1 font-mono">
+          Block Hash: 0x74f8b129...8e11
+        </div>
+<div class="inline-flex items-center gap-1.5 mt-2 bg-secondary/25 px-2.5 py-0.5 rounded-full text-secondary-fixed font-label-sm">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+          Scanned 14,280 Times Worldwide
+        </div>
+</div>
+</div>
+</section>
+<!-- Main Showcase Bento Grid -->
+<section class="max-w-[1280px] mx-auto w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop py-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left Column: Visual Canvas & Verification Highlights (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- Authentic Warli Product Image Viewport -->
+<div class="relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-lg group">
+<div class="relative w-full aspect-square md:aspect-[4/3] overflow-hidden bg-surface-container-low">
+<img alt="Traditional Warli Painting with Tarpa Dance circle handcrafted in natural terracotta and rice paste" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1X3LEEY6ALq7o8roki26KHrB7VZgQBBySHXkwLk9SDfdYFAxEOw5Sp1qsd5pxT-LLfTMYihu3k3YwHmAGRDKE61Zk5YQvucYVhf2XnzMMYpr1pb3o6VOqzL2PVFqIDp7GkrLYtnh_O-SyAO7SORHBtD37h_qo4t6TVyMk76q47EjuQ-C9Es5nPhUPXJkWyEZdkdbIztkyNSm1Zo5c8NUF84bBQe5O5--W07bvG3xWkXH5okp0nT6uDUMJ4F"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-black/20 pointer-events-none"></div>
+<!-- Provenance Location Tag -->
+<div class="absolute top-space-md left-space-md flex items-center gap-space-xs bg-surface-bright/95 backdrop-blur-md px-space-md py-1.5 rounded-full shadow-md">
+<span class="material-symbols-outlined text-secondary text-[18px]">location_on</span>
+<span class="font-label-md text-primary font-semibold">Ganjad Village, Dahanu, Palghar (Maharashtra)</span>
+</div>
+<!-- GI Certified Shield Badge -->
+<div class="absolute top-space-md right-space-md bg-secondary text-on-secondary px-space-md py-1.5 rounded-full shadow-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">workspace_premium</span>
+<span class="font-label-sm uppercase tracking-wider">GI Tagged Craft</span>
+</div>
+<!-- Overlay Bottom Captions -->
+<div class="absolute bottom-space-md left-space-md right-space-md flex justify-between items-end text-on-primary">
+<div>
+<span class="font-label-sm text-secondary-fixed uppercase tracking-wider">Traditional Folk Masterwork</span>
+<h3 class="font-headline-md text-headline-md text-on-primary drop-shadow">Traditional Warli Painting (Tarpa Dance Circle)</h3>
+</div>
+<div class="bg-surface/90 text-primary backdrop-blur-md px-3 py-1.5 rounded-lg text-right hidden sm:block">
+<span class="font-label-sm text-on-surface-variant block">Dimensions</span>
+<span class="font-title-md text-primary font-bold">18" × 18" Mud Board</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Master Artisan Card with Portrait -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-md flex flex-col md:flex-row gap-space-lg items-center">
+<div class="relative w-36 h-36 md:w-44 md:h-44 shrink-0 rounded-2xl overflow-hidden shadow-md">
+<img alt="Portrait of Savita Patil, Master Artisan smiling gently in her traditional earthen studio in Palghar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XRwNEh1sIoYoap7omZBOmDfpIcCfCyz0UIisvmJmW7V2kngPo7lGUxUe2kjXBDL-92wbXTjdsvwnGhAlIOk5p5WYIcI4B37OzvyHr0iW-pFAL50WN61iJTGgVIi2l2840gkhYTMNyhgpQwg5_iNh2UrLvE_-gk1ZElQ5nnQynNfdWuhk9SELGVtqBFRiAmsn6UNl21T1XEQZT0s_Fs92VuBU9DSGm7TvTZMkNmoYCpi8oX3QptAWzEb2uK"/>
+<div class="absolute bottom-0 inset-x-0 bg-primary/80 backdrop-blur-sm py-1 text-center">
+<span class="font-label-sm text-on-primary">Master Artisan</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-2xs w-full">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<div>
+<span class="font-label-sm text-secondary uppercase tracking-wider">Lead Practitioner</span>
+<h2 class="font-headline-md text-headline-md text-primary leading-tight">Savita Patil (सावित्री पाटील)</h2>
+</div>
+<span class="inline-flex items-center gap-1 bg-surface-container-high text-primary px-3 py-1 rounded-full font-label-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">groups</span>
+                Lead of 28 Tribal Women
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Savita leads the <em class="font-medium text-primary">Adivasi Mahila Warli Kala Bachat Gat</em> in Ganjad, carrying forward three generations of ritual mud-painting traditions honoring the mother nature deity, Palghat.
+            </p>
+<!-- Direct Fair Trade Remittance Highlight -->
+<div class="mt-space-xs p-space-sm bg-surface-container-low rounded-xl flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+</div>
+<div>
+<div class="font-title-md text-title-md text-primary">86.2% Direct Remittance</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Deposited instantly into Savita's Aadhaar-linked SHG Bank Account</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[24px]">verified_user</span>
+</div>
+</div>
+</div>
+<!-- 4 Core Trust Verification Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="bg-surface-container rounded-xl p-space-md flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">fingerprint</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">SHG &amp; KYC Verified</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">100% Aadhaar &amp; Maharashtra State Rural Livelihood Mission (UMED) certified biometric identity.</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-space-md flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">GI-Tagged Provenance</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Palghar Tribal Crafts Act 2003 origin certification guaranteeing original geographical craft lineage.</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-space-md flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">eco</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">100% Organic Medium</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Crafted with pure rice paste binder and natural terracotta ochre soil. Zero synthetic acrylic pigments.</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-space-md flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">balance</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Fair Trade Charter Compliant</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Zero intermediary markups. Complete price transparency backed by open ledger governance.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Provenance Audit Trail & Audio Greeting (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-xl">
+<!-- Audio Greeting & Cultural Meaning Widget -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[24px]">graphic_eq</span>
+<span class="font-title-md text-title-md text-primary">Savita's Voice Greeting</span>
+</div>
+<span class="font-label-sm text-secondary uppercase bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full">मराठीत ऐका</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Listen to Savita explain the ritual significance of the sacred Tarpa dance and harvest spiral recorded right in her workshop.
+          </p>
+<!-- Interactive Custom Audio Player -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-md">
+<button class="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md hover:bg-secondary-container transition-colors shrink-0" id="audio-play-btn">
+<span class="material-symbols-outlined text-[24px]" id="audio-icon" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="flex flex-col w-full gap-1">
+<div class="flex justify-between text-xs font-mono text-on-surface-variant">
+<span id="audio-current">0:00</span>
+<span>1:28 (Dahanu Dialect)</span>
+</div>
+<!-- Simulated Waveform Audio Track -->
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden cursor-pointer relative" id="audio-track">
+<div class="bg-secondary h-full w-0 transition-all duration-300" id="audio-progress"></div>
+</div>
+</div>
+</div>
+<!-- English Translation Collapsible -->
+<div class="mt-space-xs pt-space-xs bg-surface-container/60 p-space-sm rounded-lg text-on-surface">
+<div class="flex items-center justify-between text-xs font-semibold text-primary mb-1">
+<span>ENGLISH TRANSLATION</span>
+<span class="material-symbols-outlined text-[16px]">translate</span>
+</div>
+<blockquote class="font-body-sm text-body-sm italic text-on-surface-variant">
+                "Namaskar. This Tarpa painting reflects the cycle of nature. The men and women join hands in an unending circle around the horn player. In our village, life never moves in a straight line; it moves with the seasons, from soil to harvest to song."
+              </blockquote>
+</div>
+</div>
+</div>
+<!-- Verifiable Product Milestone Audit Trail -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-secondary uppercase tracking-wider">Immutable Verification</span>
+<h3 class="font-title-lg text-title-lg text-primary">Milestone Audit Trail</h3>
+</div>
+<div class="flex items-center gap-1 text-primary bg-surface-container px-2.5 py-1 rounded-full text-xs font-mono">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+              5/5 Verified
+            </div>
+</div>
+<!-- Vertical Timeline Steps -->
+<div class="flex flex-col gap-space-md mt-space-xs relative">
+<!-- Background line connecting dots -->
+<div class="absolute left-4 top-4 bottom-4 w-0.5 bg-surface-container-highest"></div>
+<!-- Step 1 -->
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Raw Gathering</span>
+<span class="font-body-sm text-secondary font-mono text-xs">Nov 14, 2024</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bamboo reed chew-brushes &amp; organic red ochre mud dug from ancestral riverbed in Ganjad.</p>
+<div class="mt-1 flex items-center gap-2 text-xs text-on-surface-variant font-mono">
+<span>GPS: 19.9832° N, 72.8251° E</span>
+<span>• Collector: Savita Patil</span>
+</div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">brush</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Handcrafting Period</span>
+<span class="font-body-sm text-secondary font-mono text-xs">Nov 15, 2024</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">16 hours of continuous manual rice-paste fine brushwork depicting the community harvest celebration.</p>
+<span class="text-xs text-secondary-container text-on-secondary-container w-fit px-2 py-0.5 rounded font-label-sm mt-1">Zero Synthetic Binder</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">mic</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Voice AI Cataloging</span>
+<span class="font-body-sm text-secondary font-mono text-xs">Nov 16, 11:30 AM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Savita dictated the storytelling metadata in her native Dahanu Marathi dialect via GRAMUDYAM Voice Assistant.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">analytics</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Purity &amp; Quality Benchmark</span>
+<span class="font-body-sm text-secondary font-mono text-xs">Nov 16, 04:15 PM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Optical spectrophotometry analysis: passed 94% organic rice starch density matching traditional standards.</p>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[94%]"></div>
+</div>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">token</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">TrustTag™ Hash Minted</span>
+<span class="font-body-sm text-secondary font-mono text-xs">Nov 17, 09:00 AM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tamper-evident holographic physical hangtag bound to Sovereign Ledger. Dispatched to regional depot.</p>
+<div class="text-xs font-mono text-primary font-bold mt-1 bg-surface-container-high p-1.5 rounded">
+                  TXID: 0x74f8b129ac818d61...
+                </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Direct Support & Collective Action Box -->
+<div class="bg-gradient-to-br from-surface-container to-surface-container-high p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Artisan Action Center</span>
+<span class="material-symbols-outlined text-secondary">handshake</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Tip SHG Button -->
+<button class="w-full bg-secondary hover:bg-on-secondary-fixed text-on-secondary font-label-lg py-3 px-space-md rounded-xl shadow transition-colors flex items-center justify-center gap-space-xs" id="tip-modal-btn">
+<span class="material-symbols-outlined text-[20px]">volunteer_activism</span>
+<span>Tip Savita's Self-Help Group (बचत गट)</span>
+</button>
+<!-- Download Certificate Button -->
+<button class="w-full bg-surface-container-lowest hover:bg-surface-bright text-primary font-label-lg py-3 px-space-md rounded-xl shadow-sm transition-colors flex items-center justify-center gap-space-xs" id="download-cert-btn">
+<span class="material-symbols-outlined text-[20px] text-primary">download</span>
+<span>Download Provenance PDF Certificate</span>
+</button>
+<!-- Browse More Crafts Button -->
+<a class="w-full text-center text-primary hover:text-secondary font-label-lg py-2 transition-colors flex items-center justify-center gap-1" data-path="marketplace" href="#">
+<span>Browse More Works by Savita Patil</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Impact Counter Metrics Section -->
+<section class="w-full bg-surface-container py-space-2xl px-margin-mobile md:px-margin-tablet lg:px-margin-desktop mt-space-xl">
+<div class="max-w-[1280px] mx-auto flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-2xs">
+<span class="font-label-sm text-secondary uppercase tracking-widest">Gramudyam Village Impact</span>
+<h3 class="font-headline-lg text-headline-lg text-primary">The Power of Your Verified Purchase</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">When you scan and verify this TrustTag™, you strengthen the economic sovereignty of tribal artists and prevent the exploitation of indigenous copyright.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl text-center shadow-sm flex flex-col items-center">
+<span class="font-display-lg text-display-lg text-primary font-headline-lg">28</span>
+<span class="font-label-sm text-secondary uppercase tracking-wider mt-1">Tribal Women Sustained</span>
+<span class="font-body-sm text-on-surface-variant mt-1">In Ganjad Cooperative</span>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl text-center shadow-sm flex flex-col items-center">
+<span class="font-display-lg text-display-lg text-secondary font-headline-lg">₹4,200</span>
+<span class="font-label-sm text-secondary uppercase tracking-wider mt-1">Direct Weekly Earnings</span>
+<span class="font-body-sm text-on-surface-variant mt-1">Above district living wage</span>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl text-center shadow-sm flex flex-col items-center">
+<span class="font-display-lg text-display-lg text-primary font-headline-lg">100%</span>
+<span class="font-label-sm text-secondary uppercase tracking-wider mt-1">Natural Native Materials</span>
+<span class="font-body-sm text-on-surface-variant mt-1">0% Petroleum plastics</span>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl text-center shadow-sm flex flex-col items-center">
+<span class="font-display-lg text-display-lg text-secondary font-headline-lg">4,000+</span>
+<span class="font-label-sm text-secondary uppercase tracking-wider mt-1">Years of Tradition</span>
+<span class="font-body-sm text-on-surface-variant mt-1">Preserved with GI Protection</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Tipping Modal / Slide-up Drawer (Hidden by default) -->
+<div class="fixed inset-0 z-50 bg-primary/40 backdrop-blur-md hidden items-center justify-center p-4" id="tip-modal">
+<div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-space-xl shadow-2xl flex flex-col gap-space-md relative animate-in fade-in zoom-in-95 duration-200">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-primary" id="close-modal-btn">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">volunteer_activism</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-primary">Support Savita's SHG</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direct UPI Remittance to Ganjad Mahila Mandal</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        100% of your gratuity is split directly among the 28 women of the Ganjad Warli Collective for healthcare and child education.
+      </p>
+<div class="grid grid-cols-3 gap-space-xs my-space-xs">
+<button class="tip-preset-btn py-2.5 rounded-lg bg-surface-container hover:bg-secondary-fixed text-primary font-title-md transition-colors" data-amt="100">₹100</button>
+<button class="tip-preset-btn py-2.5 rounded-lg bg-surface-container hover:bg-secondary-fixed text-primary font-title-md transition-colors" data-amt="250">₹250</button>
+<button class="tip-preset-btn py-2.5 rounded-lg bg-surface-container hover:bg-secondary-fixed text-primary font-title-md transition-colors" data-amt="500">₹500</button>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-on-surface-variant" for="custom-tip">Or Enter Custom Amount (₹)</label>
+<input class="w-full bg-surface-container-low p-3 rounded-lg text-on-surface font-title-md focus:outline-none focus:ring-2 focus:ring-primary" id="custom-tip" placeholder="Enter amount..." type="number"/>
+</div>
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-lg py-3.5 rounded-xl shadow transition-colors flex items-center justify-center gap-2" id="confirm-tip-btn">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+<span id="tip-btn-text">Proceed to UPI Pay (₹250)</span>
+</button>
+<div class="flex items-center justify-center gap-2 text-on-surface-variant font-body-sm text-xs">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>Secured by National Payments Corporation of India (UPI)</span>
+</div>
+</div>
+</div>
+<!-- Toast Notification for Certificate Download -->
+<div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px- space-md py-3 rounded-xl shadow-xl flex items-center gap-3 transform translate-y-24 transition-transform duration-300" id="toast">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-md text-sm font-semibold" id="toast-title">Certificate Downloaded</span>
+<span class="font-body-sm text-xs text-primary-fixed-dim" id="toast-msg">Signed digitally with Maharashtra State Seal.</span>
+</div>
+</div>
+<!-- Vanilla JavaScript for Interactivity -->
+<script>
+    // Audio Player Simulation
+    const audioBtn = document.getElementById('audio-play-btn');
+    const audioIcon = document.getElementById('audio-icon');
+    const audioProgress = document.getElementById('audio-progress');
+    const audioCurrent = document.getElementById('audio-current');
+    let isPlaying = false;
+    let progressVal = 0;
+    let audioTimer = null;
+
+    audioBtn.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      if (isPlaying) {
+        audioIcon.innerText = 'pause';
+        audioTimer = setInterval(() => {
+          if (progressVal >= 100) {
+            progressVal = 0;
+            isPlaying = false;
+            audioIcon.innerText = 'play_arrow';
+            clearInterval(audioTimer);
+          } else {
+            progressVal += 2;
+            audioProgress.style.width = progressVal + '%';
+            const seconds = Math.floor((progressVal / 100) * 88);
+            const m = Math.floor(seconds / 60);
+            const s = seconds % 60;
+            audioCurrent.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
+          }
+        }, 300);
+      } else {
+        audioIcon.innerText = 'play_arrow';
+        clearInterval(audioTimer);
+      }
+    });
+
+    // Tip Modal Controls
+    const tipModal = document.getElementById('tip-modal');
+    const tipModalBtn = document.getElementById('tip-modal-btn');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const tipPresets = document.querySelectorAll('.tip-preset-btn');
+    const tipBtnText = document.getElementById('tip-btn-text');
+    const customTip = document.getElementById('custom-tip');
+    const confirmTip = document.getElementById('confirm-tip-btn');
+    const toast = document.getElementById('toast');
+
+    tipModalBtn.addEventListener('click', () => {
+      tipModal.classList.remove('hidden');
+      tipModal.classList.add('flex');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+      tipModal.classList.add('hidden');
+      tipModal.classList.remove('flex');
+    });
+
+    tipPresets.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const val = btn.getAttribute('data-amt');
+        customTip.value = val;
+        tipBtnText.innerText = `Proceed to UPI Pay (₹${val})`;
+        tipPresets.forEach(b => b.classList.remove('bg-secondary', 'text-on-secondary'));
+        btn.classList.add('bg-secondary', 'text-on-secondary');
+      });
+    });
+
+    customTip.addEventListener('input', (e) => {
+      const val = e.target.value || 0;
+      tipBtnText.innerText = `Proceed to UPI Pay (₹${val})`;
+    });
+
+    function showToast(title, msg) {
+      document.getElementById('toast-title').innerText = title;
+      document.getElementById('toast-msg').innerText = msg;
+      toast.classList.remove('translate-y-24');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24');
+      }, 4000);
+    }
+
+    confirmTip.addEventListener('click', () => {
+      const amount = customTip.value || 250;
+      tipModal.classList.add('hidden');
+      tipModal.classList.remove('flex');
+      showToast('Gratuity Sent!', `₹${amount} transferred directly to Savita's SHG.`);
+    });
+
+    // Provenance PDF Download Simulation
+    document.getElementById('download-cert-btn').addEventListener('click', () => {
+      showToast('Certificate Generated', 'Batch #MH-WARLI-1024 provenance PDF saved.');
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-3xl"><div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-space-3xl pb-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Make the circular emblem logo significantly bigger, zoomed in so it fills the frame with minimal outer padding. Retain the exact same design, iconography, and typography: the intricate Indian banyan tree blended with rising sun rays and digital node branches, the curved text 'GRAMUDYAM' at the bottom, rendered in deep forest green (#234F3D) and warm terracotta (#C96F4A) on an organic cream background. Sharp, clean vector aesthetic with high contrast and presence." class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VgFD6jAkUH9r55bh8lHRxjZNwKJMH88gaSe30oiSteMr0BlL_irz-Xsjx8qVOepHye3MEAItXsNDexiSMAVVC9TpAopEByLLcxBRl1MUGwQQGzq5pDC1ewZvmltM1GmwvjnNjaig2kw9QETnw0e2XwCxUk-_QxJpPAzGc-RUtRFn_9YL0X7uHplU-Ow_y7395bqn0dDBdSFSxWn7aYdxkaLrdxHzmklB_AF9jhu9OBBaV9euBAY4r7wFg"/><span class="font-headline-sm text-headline-sm text-primary">GRAMUDYAM</span></div><p class="font-body-md text-body-md text-on-surface-variant pr-space-lg">Direct rural-to-urban value highway for Maharashtra's village artisans, agricultural SHGs, and handloom collectives. Empowering sustainable livelihoods through transparent commerce and cultural preservation.</p><div class="flex items-center gap-space-sm mt-space-xs"><span class="material-symbols-outlined text-secondary text-[24px]">verified</span><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">Partnership Initiative</span><span class="font-body-sm text-body-sm text-on-surface-variant">Maharashtra Rural Livelihood Mission (UMED)</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-primary">Quick Links</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="about" href="#">About Mission</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Artisans &amp; SHGs</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Rural Marketplace</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Our Impact</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Verification &amp; GI</a></ul></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-primary">Policies &amp; Support</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Fair Trade Charter</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Logistics Support</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Terms of Enterprise</a><a class="hover:text-primary transition-colors" data-path="register" href="#">SHG Onboarding Manual</a></ul></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-primary">Support Helpline</span><div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[20px]">support_agent</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Toll-Free Helpline</span></div><span class="font-headline-sm text-headline-sm text-primary">1800-200-8899</span><span class="font-body-sm text-body-sm text-on-surface-variant">Mon - Sat, 9:00 AM - 7:00 PM IST (Marathi / Hindi / English)</span></div><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[18px]">language</span><span class="font-label-md text-label-md">Available in मराठी, हिंदी, English</span></div></div></div><div class="mt-space-2xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 GRAMUDYAM. Government of Maharashtra Initiative. All rights reserved.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" data-path="about" href="#">Civic Network</a><a class="hover:text-primary transition-colors" data-path="marketplace" href="#">Artisanal Registry</a><a class="hover:text-primary transition-colors" data-path="how-it-works" href="#">Security &amp; Trust</a></div></div></div></footer></body></html>

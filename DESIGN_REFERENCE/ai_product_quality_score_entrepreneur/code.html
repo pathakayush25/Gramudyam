@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-low":"#f9f3e5","surface":"#fff9eb","tertiary-container":"#2c4e40","primary-fixed-dim":"#a2d1b9","on-tertiary":"#ffffff","on-error":"#ffffff","secondary":"#964826","outline":"#717974","surface-dim":"#dfdacc","on-background":"#1d1c13","on-primary-fixed":"#002115","inverse-surface":"#333027","on-tertiary-fixed":"#002116","outline-variant":"#c0c8c2","on-surface-variant":"#414944","on-secondary-fixed-variant":"#783111","surface-container-high":"#eee8da","error":"#ba1a1a","on-secondary-fixed":"#370e00","inverse-primary":"#a2d1b9","background":"#fff9eb","tertiary-fixed-dim":"#aacfbc","on-surface":"#1d1c13","on-primary-container":"#91c0a9","tertiary":"#15372a","tertiary-fixed":"#c5ebd8","primary":"#073827","inverse-on-surface":"#f6f0e2","on-primary-fixed-variant":"#234f3d","error-container":"#ffdad6","surface-container":"#f3eddf","on-secondary-container":"#76300f","secondary-fixed":"#ffdbce","surface-variant":"#e8e2d4","primary-fixed":"#bdedd5","secondary-fixed-dim":"#ffb599","on-primary":"#ffffff","on-error-container":"#93000a","surface-tint":"#3b6754","primary-container":"#234f3d","surface-container-highest":"#e8e2d4","on-tertiary-container":"#9abeac","secondary-container":"#fe9971","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#2c4d3f","surface-container-lowest":"#ffffff","surface-bright":"#fff9eb"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-tablet":"2rem","margin-desktop":"5rem","gutter-desktop":"1.5rem","space-xs":"0.5rem","gutter-mobile":"1rem","space-2xs":"0.25rem","space-xl":"2rem","space-2xl":"3rem","space-3xl":"4rem","margin-mobile":"1rem","space-md":"1rem","space-lg":"1.5rem","space-sm":"0.75rem"},"fontFamily":{"label-lg":["Inter"],"headline-lg":["Playfair Display"],"body-lg":["Inter"],"display-lg":["Playfair Display"],"body-sm":["Inter"],"headline-sm":["Playfair Display"],"title-lg":["Inter"],"label-sm":["Inter"],"title-md":["Inter"],"headline-md":["Playfair Display"],"body-md":["Inter"],"display-lg-mobile":["Playfair Display"],"label-md":["Inter"]},"fontSize":{"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-lg-mobile":["34px",{"lineHeight":"42px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="GRAMUDYAM Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm54D1rw1TTaAfRpKwm5uyUXBcK93J8U2Mn1fh4uWmiIIR8GcVd4z-gHBmIx-0ZGzbnCyJo-LKxxtndPldt7m4sl88fhnHKynJHgdwMCSyWhVEKUJOzUrtdEANIxyqmLsv52mRz6eNBNIdf4XBcw9DNARrcWpGHo_J2X9vGJhmjJQEgwtcsEus8j43dDovusWdrI0jOZodlS3egR5xlBOWGDh2vdwqxyoPYmVxyfZOCecwn1EdaYgAdw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">GRAMUDYAM</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase mt-space-2xs">Rural Enterprise Network</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-label-lg rounded-lg"><a aria-current="page" class="transition-colors py-space-xs px-space-sm bg-primary-container text-on-primary-container font-label-lg rounded-lg" data-path="home" href="#">Home</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors py-space-xs px-space-sm" data-path="marketplace" href="#">Marketplace</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors py-space-xs px-space-sm" data-path="about" href="#">About</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors py-space-xs px-space-sm" data-path="how-it-works" href="#">How It Works</a></nav><div class="flex items-center gap-space-sm md:gap-space-md"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs transition-colors" data-path="login" href="#">Login</a><a class="bg-secondary text-on-secondary hover:bg-on-secondary-container hover:text-on-secondary font-label-lg text-label-lg px-space-md py-space-xs rounded-lg shadow-sm transition-colors" data-path="become-an-entrepreneur" href="#">Become an Entrepreneur</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Background Accents -->
+<div class="relative w-full max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop py-space-xl lg:py-space-2xl">
+<!-- 1. BREADCRUMB NAVIGATION -->
+<nav aria-label="Breadcrumb" class="flex flex-wrap items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-lg">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="dashboard" href="#">
+<span class="material-symbols-outlined text-[16px]">dashboard</span>
+<span>Dashboard</span>
+<span class="text-on-surface-variant/60 font-body-sm text-[11px]">(डॅशबोर्ड)</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<a class="hover:text-primary transition-colors" data-path="marketplace" href="#">
+<span>My Products</span>
+<span class="text-on-surface-variant/60 text-[11px]">(माझी उत्पादने)</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<span class="text-on-surface-variant">Traditional Warli Art</span>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<span class="text-primary font-title-md text-body-sm font-semibold flex items-center gap-1">
+<span>AI Quality Score</span>
+<span class="text-primary/70 text-[11px]">(AI गुणवत्ता स्कोअर)</span>
+</span>
+</nav>
+<!-- 2. HEADER BLOCK -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="max-w-3xl flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center gap-space-sm mb-1">
+<span class="inline-flex items-center gap-1.5 bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-3 py-1 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+            ✦ AI Analysis (✦ AI विश्लेषण - Palghar Cluster Validated)
+          </span>
+<span class="inline-flex items-center gap-1 bg-surface-container-high text-secondary font-label-sm text-label-sm px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+            Warli Craft Standard v2.4
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          AI Product Quality Score
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Our AI reviewed your product listing and found a few ways to make it even better. 
+          <span class="block text-body-md text-on-surface-variant/80 mt-0.5">
+            (आमच्या AI ने तुमच्या उत्पादनाची तपासणी केली असून अधिक ग्राहक आकर्षित करण्यासाठी काही सोप्या सुधारणा सुचवल्या आहेत.)
+          </span>
+</p>
+</div>
+<!-- Quick Action Pill / Audio Sahayak Trigger -->
+<div class="shrink-0 flex items-center gap-space-xs bg-surface-container-low p-2 rounded-2xl shadow-sm">
+<button class="flex items-center gap-2 bg-surface-container-lowest hover:bg-surface-container text-primary font-label-md text-label-md px-3.5 py-2 rounded-xl transition-all shadow-sm" id="voiceNarrateBtn" type="button">
+<span class="material-symbols-outlined text-secondary text-[18px]">volume_up</span>
+<span>मराठीत ऐका (Listen)</span>
+</button>
+<button class="p-2 text-on-surface-variant hover:text-primary rounded-xl transition-colors" title="Download Audit PDF" type="button">
+<span class="material-symbols-outlined text-[20px]">download</span>
+</button>
+</div>
+</div>
+<!-- 3. STEPPER / PRODUCT JOURNEY BAR -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-space-md shadow-sm mb-space-2xl">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md relative">
+<!-- Step 1 -->
+<div class="flex items-center gap-space-sm p-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Step 1 • पूर्ण झाले</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Voice Creation</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">बोलून उत्पादन नोंदणी ✓</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex items-center gap-space-sm p-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Step 2 • पूर्ण झाले</span>
+<span class="font-title-md text-title-md text-on-surface truncate">AI Analysis</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">गुणवत्ता पडताळणी ✓</span>
+</div>
+</div>
+<!-- Step 3 (Current) -->
+<div class="flex items-center gap-space-sm p-space-xs bg-surface-container-high/60 rounded-2xl">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm animate-pulse">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Step 3 • चालू पायरी</span>
+<span class="font-title-md text-title-md text-on-surface font-bold truncate">Improve Listing</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">सुधारणा करा (Recommended)</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex items-center gap-space-sm p-space-xs opacity-60">
+<div class="w-10 h-10 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Step 4 • पुढील पायरी</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Publish Product</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">विक्रीसाठी प्रसिद्ध करा</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. MAIN TWO-COLUMN CONTENT GRID -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT COLUMN: Centerpiece Radial Score & Breakdown (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- Main Score Hero Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-xl shadow-sm flex flex-col md:flex-row items-center gap-space-xl relative overflow-hidden">
+<!-- Radial Progress Gauge (SVG) -->
+<div class="relative w-48 h-48 shrink-0 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 160 160">
+<!-- Background Track -->
+<circle class="stroke-surface-container" cx="80" cy="80" fill="none" r="66" stroke-width="12"></circle>
+<!-- Progress Arc (86% of 414.69 perimeter = 356.63) -->
+<circle class="stroke-primary transition-all duration-1000 ease-out" cx="80" cy="80" fill="none" r="66" stroke-dasharray="414.7" stroke-dashoffset="58" stroke-linecap="round" stroke-width="12"></circle>
+</svg>
+<!-- Center Text Metric -->
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center select-none">
+<span class="font-display-lg text-display-lg text-primary tracking-tighter leading-none">86</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mt-1">/ 100 गुण</span>
+<span class="inline-flex items-center gap-0.5 bg-primary-fixed text-on-primary-fixed text-[10px] font-bold px-2 py-0.5 rounded-full mt-1">
+<span class="material-symbols-outlined text-[12px]">check</span> उत्कृष्ट
+              </span>
+</div>
+</div>
+<!-- Hero Score Description -->
+<div class="flex flex-col gap-space-xs text-center md:text-left">
+<div class="inline-flex items-center justify-center md:justify-start gap-1.5 text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Ready for ONDC &amp; Gramudyam Verified Badge</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">
+              Your Product Quality (तुमच्या उत्पादनाची प्रत)
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Your product is ready to sell. A few improvements could make it even stronger and increase buyer orders.
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80 italic">
+              (तुमचे उत्पादन विक्रीसाठी तयार आहे. थोड्या सुधारणा केल्यास ग्राहकांचा विश्वास आणि खरेदी दुप्पट होईल.)
+            </p>
+<!-- Quick Stat Badges -->
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xs justify-center md:justify-start">
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-2.5 py-1 rounded-lg flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[15px]">trending_up</span> Top 10% in Palghar Crafts
+              </span>
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-2.5 py-1 rounded-lg flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[15px]">local_shipping</span> Fast Shipping Ready
+              </span>
+</div>
+</div>
+</div>
+<!-- 5 Detailed Quality Breakdown Rows -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-xl shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-space-xs">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary">
+                What makes up your score?
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                स्कोअर कशावर आधारित आहे? (5 Factors evaluated by Regional Craft Model)
+              </p>
+</div>
+<span class="text-primary font-label-sm text-label-sm bg-primary-fixed-dim/40 px-3 py-1 rounded-full w-fit">
+              4/5 Passed Benchmark
+            </span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Item 1: Product Images -->
+<div class="p-space-sm bg-surface-container-low/70 rounded-2xl flex flex-col gap-2 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Product Images</span>
+<span class="text-body-sm text-on-surface-variant">(उत्पादनाचे फोटो)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Clear natural lighting, high resolution motif captures</span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<span class="font-title-md text-title-md text-primary font-bold">92<span class="text-body-sm text-on-surface-variant font-normal">/100</span></span>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full hidden sm:inline-block">
+                    उत्कृष्ट (Excellent)
+                  </span>
+</div>
+</div>
+<!-- Progress Bar -->
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-700" style="width: 92%;"></div>
+</div>
+</div>
+<!-- Item 2: Description -->
+<div class="p-space-sm bg-surface-container-low/70 rounded-2xl flex flex-col gap-2 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">description</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Description</span>
+<span class="text-body-sm text-on-surface-variant">(उत्पादनाची माहिती)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Voice transcribed accurately into Marathi &amp; English</span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<span class="font-title-md text-title-md text-primary font-bold">88<span class="text-body-sm text-on-surface-variant font-normal">/100</span></span>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full hidden sm:inline-block">
+                    उत्कृष्ट (Excellent)
+                  </span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-700" style="width: 88%;"></div>
+</div>
+</div>
+<!-- Item 3: Pricing & Margin -->
+<div class="p-space-sm bg-surface-container-low/70 rounded-2xl flex flex-col gap-2 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Pricing</span>
+<span class="text-body-sm text-on-surface-variant">(किंमत आणि नफा)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Competitive in Mumbai craft expos; fair artisan remuneration</span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<span class="font-title-md text-title-md text-on-surface font-bold">81<span class="text-body-sm text-on-surface-variant font-normal">/100</span></span>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full hidden sm:inline-block">
+                    चांगली (Good)
+                  </span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full transition-all duration-700" style="width: 81%;"></div>
+</div>
+</div>
+<!-- Item 4: Branding & Artisan Story (Actionable) -->
+<div class="p-space-sm bg-surface-container-low/70 rounded-2xl flex flex-col gap-2 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Branding &amp; Story</span>
+<span class="text-body-sm text-on-surface-variant">(कलाकाराची ओळख)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Add more background on the Tarpa dance symbolism</span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<span class="font-title-md text-title-md text-on-surface font-bold">84<span class="text-body-sm text-on-surface-variant font-normal">/100</span></span>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full hidden sm:inline-block">
+                    चांगली (Good)
+                  </span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full transition-all duration-700" style="width: 84%;"></div>
+</div>
+</div>
+<!-- Item 5: Trust Information -->
+<div class="p-space-sm bg-surface-container-low/70 rounded-2xl flex flex-col gap-2 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Trust Information</span>
+<span class="text-body-sm text-on-surface-variant">(विश्वसनीयता व ट्रस्टटॅग)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Self-Help Group registration &amp; Aadhaar verified</span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<span class="font-title-md text-title-md text-primary font-bold">90<span class="text-body-sm text-on-surface-variant font-normal">/100</span></span>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full hidden sm:inline-block">
+                    उत्कृष्ट (Excellent)
+                  </span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-700" style="width: 90%;"></div>
+</div>
+</div>
+</div>
+<!-- Bottom Metric Note -->
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm pt-2">
+<span class="material-symbols-outlined text-primary text-[18px]">info</span>
+<span>Based on 1,420+ successful rural handcraft listings on Gramudyam &amp; Maharashtra State Livelihood Mission.</span>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Product Snapshot & AI Recommendations (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-xl">
+<!-- Compact Product Preview Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Listing Preview</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1 font-semibold">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+              Draft Saved 2 mins ago
+            </span>
+</div>
+<!-- Product Media & Badges -->
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up photograph of authentic Maharashtrian Warli tribal art on terracotta red background with fine white rice-paste pigment painting depicting village harvest and tarpa circular dance, morning warm lighting, artisanal handmade craft" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJbwgnjO2LfXlFJ_RPskV4exsA35N6i5nRv-7DOiEp1HnIWjS11-JPgHKSwN8l8i1lTz3iPnEZzwvwGLu5aoYtDH5jMcTcvBh2NVdJw4Z3s8m8I_wj2jNWnsiL9BDY5-oVrEaN-JB5OWaDiTRiaopX-Uum9ktDkesdXK1Ox2r0OROFJjSVu_RZlM8m0Z9bqZ-1s3pNB7GMNVg7KugXncpO4HZN3a1pfNexXPmZ3oF72_wASvrkqCd81Q"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="bg-surface/90 backdrop-blur-md text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                TrustTag™ Ready
+              </span>
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2.5 py-1 rounded-full shadow-sm">
+                GI-Certified Cluster
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1 rounded-xl shadow-md">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹1,299</span>
+</div>
+</div>
+<!-- Product Details -->
+<div class="flex flex-col gap-space-xs p-1">
+<h3 class="font-headline-sm text-headline-sm text-primary leading-tight">
+              Traditional Warli Art Painting
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              (पारंपारिक वारली कलाकृती - तारपा नृत्य व निसर्ग चक्र)
+            </p>
+<!-- Artisan Bio Snippet -->
+<div class="flex items-center gap-space-sm pt-2 mt-1">
+<div class="w-10 h-10 rounded-full overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of Savita Patil, a proud rural Indian female artisan wearing a traditional Marathi blue cotton saree and nose ring sitting happily in her village craft studio, natural soft warm daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbRDWRc17fPQFdr1HmG_9S5yl9AVjTuUbaBihr6SvSbGBfOeQo8IkQETTqJrrVgS-x-5VksUNyv0KZ8Rp54ln5iu2G-24kDKItlmb90ufN1UQI_fhWKeKM_iycPODhBBaAMLIanUWflEKRMI4t_m4niWemHM6wiCdNYRhDNxurszrFxoDRqPll3TPy7Y4ZHg7TWxOI_2E4SzNDOhNJGAcGKc5hMFQOdCPqvQdYBFwezXZBQmA2FWZbqA"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface font-semibold truncate">Savita Patil</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">📍 Ganjad Village, Dahanu, Maharashtra</span>
+</div>
+</div>
+</div>
+</div>
+<!-- AI Insight Banner Card -->
+<div class="bg-primary-fixed/30 rounded-3xl p-space-lg shadow-sm flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-2xl bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-primary font-bold flex items-center gap-2">
+              ✦ AI Insight (AI चे निरीक्षण)
+            </h4>
+<p class="font-body-md text-body-md text-on-surface">
+              Your strongest area is product presentation. Adding your authentic craft story and <strong>2 more photos</strong> could increase buyer confidence and inquiries by <strong>+34%</strong>.
+            </p>
+</div>
+</div>
+<!-- AI Suggestions Section -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-xl shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">Recommended Actions</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">
+              AI Suggestions (उपयुक्त सुधारणा)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Small improvements can help your product stand out in national exhibitions.
+              <span class="block text-on-surface-variant/80">(या सोप्या सुधारणांमुळे तुमचे उत्पादन ग्राहकांच्या पसंतीस पटकन पडेल.)</span>
+</p>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Suggestion Card 1 -->
+<div class="p-space-md bg-surface-container-low/60 rounded-2xl flex flex-col gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">add_a_photo</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-semibold">
+                    Add 2 more product images
+                  </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Customers are more likely to trust products when they can see them from multiple angles, in natural light or being held in hand.
+                  </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80 italic">
+                    (विविध कोनातून घेतलेले फोटो ग्राहकांचा खरेदीचा निर्णय सोपा करतात.)
+                  </p>
+</div>
+</div>
+<div class="flex justify-end pt-1">
+<button class="inline-flex items-center gap-1.5 bg-secondary text-on-secondary font-label-md text-label-md px-4 py-2 rounded-xl hover:bg-on-secondary-container transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add_photo_alternate</span>
+<span>+ Add Images (फोटो जोडा)</span>
+</button>
+</div>
+</div>
+<!-- Suggestion Card 2 -->
+<div class="p-space-md bg-surface-container-low/60 rounded-2xl flex flex-col gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-xl bg-primary-fixed text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">eco</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-semibold">
+                    Mention the materials used
+                  </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Adding natural cow-dung primer and authentic rice-paste details helps buyers appreciate authentic handmade craft quality.
+                  </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80 italic">
+                    (नैसर्गिक तांदळाचे पीठ व गेरूचा वापर केल्याचे स्पष्ट लिहिल्यास किंमत योग्य वाटते.)
+                  </p>
+</div>
+</div>
+<div class="flex justify-end pt-1">
+<button class="inline-flex items-center gap-1.5 bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md px-4 py-2 rounded-xl transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>Edit Description (माहिती बदला)</span>
+</button>
+</div>
+</div>
+<!-- Suggestion Card 3 -->
+<div class="p-space-md bg-surface-container-low/60 rounded-2xl flex flex-col gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">record_voice_over</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-semibold">
+                    Add your entrepreneur story
+                  </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Tell customers who made this piece and the traditional village ritual behind the Tarpa dance motif.
+                  </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80 italic">
+                    (तुमच्या कलेमागील वारली संस्कृतीची गोष्ट जोडून ग्राहकांशी भावनिक नाते जोडा.)
+                  </p>
+</div>
+</div>
+<div class="flex justify-end pt-1">
+<button class="inline-flex items-center gap-1.5 bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md px-4 py-2 rounded-xl transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">mic</span>
+<span>Add Story via Voice (गोष्ट सांगा)</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 5. REASSURING BOTTOM BAR & ACTIONS DOCK -->
+<div class="mt-space-2xl bg-surface-container-lowest rounded-3xl p-space-xl shadow-md flex flex-col gap-space-lg">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md pb-space-sm">
+<!-- Friendly Encouraging Message -->
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary shrink-0 text-2xl shadow-sm">
+            🎉
+          </div>
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg text-primary font-bold">
+              You're almost ready! Your product already looks great.
+            </span>
+<span class="font-body-md text-body-md text-on-surface-variant">
+              (तुम्ही विक्रीच्या अगदी जवळ आहात! तुमचे उत्पादन अप्रतिम दिसत असून थोड्याच वेळात विक्रीसाठी खुले होईल.)
+            </span>
+</div>
+</div>
+<!-- Primary & Secondary Interactive Action CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm w-full lg:w-auto">
+<button class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg px-space-md py-3 rounded-xl transition-colors shadow-sm" type="button">
+            Save as Draft
+          </button>
+<button class="bg-surface-container hover:bg-surface-container-high text-primary font-label-lg text-label-lg px-space-md py-3 rounded-xl transition-colors flex items-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>View Preview</span>
+</button>
+<a class="bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-space-lg py-3 rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2" data-path="marketplace" href="#">
+<span>Improve Product (उत्पादनात सुधारणा करा)</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Human Support Banner (Sahayak Helpline) -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm text-center sm:text-left">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">
+              Need help taking photos or writing the description?
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              ग्रामसेवक व ग्रामोद्योग सहाय्यक विनामूल्य मदत करतील.
+            </span>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-primary hover:text-secondary font-label-md text-label-md px-4 py-2 rounded-xl transition-colors shadow-sm" href="tel:18002008899">
+<span class="material-symbols-outlined text-secondary text-[18px]">call</span>
+<span class="font-bold">Call Sahayak: 1800-200-8899</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple interactive micro-interaction for voice narration toggle
+  const narrateBtn = document.getElementById('voiceNarrateBtn');
+  if (narrateBtn) {
+    narrateBtn.addEventListener('click', function() {
+      const isPlaying = this.getAttribute('data-playing') === 'true';
+      if (!isPlaying) {
+        this.setAttribute('data-playing', 'true');
+        this.innerHTML = `
+          <span class="material-symbols-outlined text-secondary text-[18px] animate-spin">sync</span>
+          <span>आवाज सुरू आहे... (Playing)</span>
+        `;
+        // Simulate voice playback end after 4 seconds
+        setTimeout(() => {
+          this.setAttribute('data-playing', 'false');
+          this.innerHTML = `
+            <span class="material-symbols-outlined text-secondary text-[18px]">volume_up</span>
+            <span>पुन्हा ऐका (Listen Again)</span>
+          `;
+        }, 4000);
+      }
+    });
+  }
+</script></main><footer class="w-full bg-tertiary text-inverse-on-surface pt-space-3xl pb-space-2xl"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-2xl"><div class="lg:col-span-2 flex flex-col gap-space-md pr-space-lg"><div class="flex items-center gap-space-sm"><img alt="GRAMUDYAM Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm54D1rw1TTaAfRpKwm5uyUXBcK93J8U2Mn1fh4uWmiIIR8GcVd4z-gHBmIx-0ZGzbnCyJo-LKxxtndPldt7m4sl88fhnHKynJHgdwMCSyWhVEKUJOzUrtdEANIxyqmLsv52mRz6eNBNIdf4XBcw9DNARrcWpGHo_J2X9vGJhmjJQEgwtcsEus8j43dDovusWdrI0jOZodlS3egR5xlBOWGDh2vdwqxyoPYmVxyfZOCecwn1EdaYgAdw"/><span class="font-headline-sm text-headline-sm text-inverse-on-surface">GRAMUDYAM</span></div><p class="font-body-md text-body-md text-on-tertiary-container max-w-sm">Catalyzing rural artisan and agricultural prosperity across Maharashtra via decentralized direct trade, sovereign verification, and AI-led market access.</p><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary-container">verified</span><span class="font-label-sm text-label-sm text-secondary-container tracking-wider uppercase">Maharashtra Rural Enterprise Initiative</span></div><div class="flex items-center gap-space-sm mt-space-xs"><span class="font-label-sm text-label-sm text-on-tertiary-container">Language:</span><div class="flex items-center gap-space-xs bg-tertiary-container px-space-sm py-space-2xs rounded-full"><a class="font-label-sm text-label-sm text-on-tertiary" data-path="home" href="#">English</a><span class="text-on-tertiary-container font-label-sm">/</span><a class="font-label-sm text-label-sm text-on-tertiary-container hover:text-on-tertiary" data-path="home" href="#">मराठी</a></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-inverse-on-surface">For Artisans</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-tertiary-container"><li><a class="hover:text-on-tertiary transition-colors" data-path="become-an-entrepreneur" href="#">SHG Registration</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="how-it-works" href="#">Voice AI Cataloging</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="marketplace" href="#">Direct Payouts</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="about" href="#">Artisan Training Centers</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-inverse-on-surface">For Buyers</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-tertiary-container"><li><a class="hover:text-on-tertiary transition-colors" data-path="marketplace" href="#">GI-Tagged Crafts</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="marketplace" href="#">Direct Farmer Produce</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="how-it-works" href="#">TrustTag Verification</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="about" href="#">Bulk Corporate Orders</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-inverse-on-surface">Technology &amp; Policy</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-tertiary-container"><li><a class="hover:text-on-tertiary transition-colors" data-path="how-it-works" href="#">Voice AI Architecture</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="how-it-works" href="#">TrustTag Protocol</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="about" href="#">Fair Trade Policy</a></li><li><a class="hover:text-on-tertiary transition-colors" data-path="about" href="#">Data Sovereignty</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-tertiary-container"><p class="font-body-sm text-body-sm">© 2024 GRAMUDYAM. In partnership with Rural Livelihood Missions of Maharashtra. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="text-on-tertiary-container hover:text-on-tertiary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a><a class="text-on-tertiary-container hover:text-on-tertiary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a><a class="text-on-tertiary-container hover:text-on-tertiary transition-colors" href="#"><span class="material-symbols-outlined">forum</span></a></div></div></div></footer></body></html>
